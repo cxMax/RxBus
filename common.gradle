@@ -1,0 +1,26 @@
+ext {
+    minSdkVersion = 21
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
+    targetCompatibilityVersion = JavaVersion.VERSION_1_7
+
+    deps = [
+            appcompat_v7     : "com.android.support:appcompat-v7:${compileSdkVersion}.+",
+            support_v4       : "com.android.support:support-v4:${compileSdkVersion}.+",
+            test_unit        : "junit:junit:4.12",
+            auto_service     : "com.google.auto.service:auto-service:1.0-rc2",
+            lint_api         : "com.android.tools.lint:lint-api:24.3.1",
+            lint_checks      : "com.android.tools.lint:lint-checks:24.3.1",
+            javapoet         : "com.squareup:javapoet:1.8.0",
+
+            rxjava           : "io.reactivex:rxandroid:1.2.1",
+            rxandroid        : "io.reactivex:rxjava:1.1.6",
+
+    ]
+}
+
+subprojects {
+
+}
