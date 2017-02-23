@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':rxbus', ':rxbus-annotations', ':rxbus-compiler', ':rxbus-lint'

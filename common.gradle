@@ -18,6 +18,9 @@ ext {
             rxjava           : "io.reactivex:rxandroid:1.2.1",
             rxandroid        : "io.reactivex:rxjava:1.1.6",
 
+            rxbus            : ':rxbus',
+            rxbus_annotations: ':rxbus-annotations',
+            rxbus_compiler   : ':rxbus-compiler',
     ]
 }
 
